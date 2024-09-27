@@ -15,8 +15,8 @@ This project analyzes and forecasts the volatility of the SPY ETF (S&P 500 ETF) 
 ## Installation
 To run this project, ensure you have Python installed along with the required libraries. You can install the necessary packages using pip:
 
-```bash
-pip install numpy pandas yfinance arch matplotlib
+
+`pip install numpy pandas yfinance arch matplotlib`
 
 
 ## Data
