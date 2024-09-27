@@ -10,12 +10,14 @@ This project analyzes and forecasts the volatility of the SPY ETF (S&P 500 ETF) 
 - [Analysis](#analysis)
 - [Results](#results)
 - [Dependencies](#dependencies)
-- [License](#license)
+
 
 ## Installation
 To run this project, ensure you have Python installed along with the required libraries. You can install the necessary packages using pip:
 
+```bash
 pip install numpy pandas yfinance arch matplotlib
+
 
 ## Data
 The project fetches historical price data for the SPY ETF from Yahoo Finance starting from January 1, 2005, to May 30, 2024. The data includes adjusted closing prices, which are used to calculate daily returns.
@@ -38,9 +40,9 @@ The analysis consists of the following steps:
 - **Volatility Forecasts**: Displays forecasted variance for the next 5 days.
 
 ### Example Outputs
-- Daily volatility: `x%`
-- Monthly volatility: `x%`
-- Annual volatility: `x%`
+- Daily volatility: `1.21%%`
+- Monthly volatility: ` 5.54%`
+- Annual volatility: `19.18%`
 - GARCH Model Summary
 - Volatility forecasts plot showing forecasts from different models.
 
